@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js-variable</title>
+</head>
+<body>
+    <script>
+//javascript two type varible define
+
+// varible must be start with (a-z,A-Z),( _ ),( $ - sign )
+// javascript variable first latter we can digit ( 0-9 ) exmple=asdc1
+// javascript variable case-sensitive for x  and X
+   
+var first = 33;
+var _first = 40;
+var $demo = 22;
+var abc1 = "hello";
+
+
+document.write(first);
+  
+document.write(_first);
+
+document.write($demo);
+
+document.write(abc1);
+
+</script>
+
+
+    <script>
+      //    1.local varible
+
+        //local varable work only function other this variable not working 
+
+        function demo(){
+            var local="this is local variable"
+
+            document.write(demo);
+        }
+
+        function demo1(){
+            if(14>4){
+                var x=20 //javascript local variable
+            }
+        }
+</script>
+
+
+<script>
+//javascript global variable
+    var data= 40; //global type variable
+     var bdata=30;
+    function a(){
+
+        document.write(data);
+    }
+
+    function b(){
+        document.write(bdata);
+    }
+ 
+    a();
+    b();
+
+</script>
+</body>
+</html>

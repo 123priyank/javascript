@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript global variable</title>
+</head>
+<body>
+    
+
+
+    <script>
+        //javascript global variable accesses intern function with window
+
+        window.value="this global varible";
+
+
+        // function ab(){
+        //     document.write(window.value);
+        // }
+
+        // ab();
+
+
+        function bd(){
+            window.demo=435;
+        }
+
+        function sg(){
+            document.write(window.demo);
+        }
+        
+        bd();
+        sg();
+        
+    </script>
+</body>
+</html>
